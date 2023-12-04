@@ -22,23 +22,6 @@
             <button type="submit" class="signup-btn">Sign Up</button>
         </form>
     </div>
-
-    <script>
-        document.getElementById('signup-form').addEventListener('submit', function(event) {
-            event.preventDefault(); // Prevent the default form submission
-
-            // Perform form validation
-            var email = document.getElementById('email').value;
-            var password = document.getElementById('password').value;
-
-            if (email === '' || password === '') {
-                alert('Please fill in all fields.');
-                return;
-            }
-
-            // Redirect to thank-you.html after successful form submission
-            window.location.href = 'thank-you.html';
-        });
-    </script>
+<script src="index.js"></script>
 </body>
 </html>
