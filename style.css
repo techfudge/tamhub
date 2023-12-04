@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background-image:url(pexels-rostislav-uzunov-5011647.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sign-up-form {
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.sign-up-form h1{
+    color: #020405;
+    margin-bottom: 30px;
+}
+ 
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    border:1px solid #999 ;
+    outline: none;
+}
+
+
+ button {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #999;
+    outline: none;
+    background: #1c8adb;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.4s, transform 0.4s;
+}
+
+button:hover {
+    background: #155b8a;
+    transform: scale(1.1);
+    transition: background 0.4s, transform 0.4s;
+}
+
+
+ 
+
+.user-icon {
+    width: 75px; 
+    height: 70px; 
+    margin-bottom: 20px; 
+}
+
+img{
+    width: 70px;
+}
